@@ -1,7 +1,7 @@
 void setupMQTT() 
 {
   // MQTT Broker
-  const char* mqtt_server = "192.168.162.44";
+  const char* mqtt_server = "192.168.162.42";
 
   //Initialize MQTT
   Serial.print("MQTT-server: ");

@@ -5,7 +5,6 @@ void blink(int rounds)
     digitalWrite(LED_PIN, HIGH);
     delay(LED_shine);
     digitalWrite(LED_PIN, LOW);
-    delay(LED_shine);
   }
 }
 
@@ -16,6 +15,5 @@ void timeBlink(int round, int ledDelay)
     digitalWrite(LED_PIN, HIGH);
     delay(ledDelay);
     digitalWrite(LED_PIN, LOW);
-    delay(ledDelay);
   }
 }
